@@ -40,4 +40,4 @@ print(f"Test accuracy: {test_acc:.4f}")
 # Predict sample
 plt.imshow(x_test[0].reshape(28,28), cmap='gray')
 plt.title(f"Predicted: {model.predict(x_test[:1]).argmax()}")
-plt.show()
+plt.show() 
